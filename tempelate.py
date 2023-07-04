@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-package_name = "housing"
+package_name = "stock_market"
 
 list_of_files = [
 
