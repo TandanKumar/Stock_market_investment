@@ -17,7 +17,13 @@ list_of_files = [
    f"{package_name}/pipeline/__init__.py",
    f"{package_name}/config/__init__.py",
    f"{package_name}/entity/__init__.py",
-   f"{package_name}/components/__init__.py"
+   f"{package_name}/component/__init__.py",
+   f"{package_name}/component/data_ingestion.py",
+   f"{package_name}/component/data_transformation.py",
+   f"{package_name}/component/data_validation.py",
+   f"{package_name}/component/data_evaluation.py",
+   f"{package_name}/component/model_pusher.py",
+   f"{package_name}/component/model_trainer.py"
 ]
 
 
