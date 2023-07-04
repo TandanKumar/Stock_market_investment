@@ -20,4 +20,10 @@ conda activate .clear\venv
 
  Here command is written to create all the files and dolders
 
+ # to run setup.py
+
+ python setup.py install
+
+ 
+
  ---------------------------------------------
