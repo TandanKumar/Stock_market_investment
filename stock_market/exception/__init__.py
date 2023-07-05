@@ -1,11 +1,11 @@
 import os
 import sys
 
-class stockmarketException(Exception):
+class HousingException(Exception):
     
     def __init__(self, error_message:Exception,error_detail:sys):
         super().__init__(error_message)
-        self.error_message=stockmarketException.get_detailed_error_message(error_message=error_message,
+        self.error_message=HousingException.get_detailed_error_message(error_message=error_message,
                                                                        error_detail=error_detail
                                                                         )
 
@@ -27,10 +27,10 @@ class stockmarketException(Exception):
         error message: [{error_message}]
         """
         return error_message
-    
+
     def __str__(self):
         return self.error_message
 
 
     def __repr__(self) -> str:
-        return stockmarketException.__name__.str()
+        return HousingException.__name__.str()
