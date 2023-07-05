@@ -15,15 +15,26 @@ list_of_files = [
    f"{package_name}/exception/__init__.py",
    f"{package_name}/logger/__init__.py",
    f"{package_name}/pipeline/__init__.py",
+   f"{package_name}/pipeline/pipeline.py",
    f"{package_name}/config/__init__.py",
+   f"{package_name}/config/configuration.py",
    f"{package_name}/entity/__init__.py",
+   f"{package_name}/entity/config_entity.py",
    f"{package_name}/component/__init__.py",
    f"{package_name}/component/data_ingestion.py",
    f"{package_name}/component/data_transformation.py",
    f"{package_name}/component/data_validation.py",
    f"{package_name}/component/data_evaluation.py",
    f"{package_name}/component/model_pusher.py",
-   f"{package_name}/component/model_trainer.py"
+   f"{package_name}/component/model_trainer.py",
+   f"{package_name}/util/util.py",
+   f"{package_name}/util/__init__.py",
+   f"{package_name}/constant/__init__.py",
+   "config/config.yaml",
+   "config/model.yaml",
+   "config/schema.yaml"
+
+
 ]
 
 

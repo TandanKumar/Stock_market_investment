@@ -1,7 +1,7 @@
 import os
 import sys
 
-class HousingException(Exception):
+class stockmarketException(Exception):
     
     def __init__(self, error_message:Exception,error_detail:sys):
         super().__init__(error_message)
@@ -33,4 +33,4 @@ class HousingException(Exception):
 
 
     def __repr__(self) -> str:
-        return HousingException.__name__.str()
+        return stockmarketException.__name__.str()

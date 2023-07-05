@@ -24,6 +24,10 @@ conda activate .clear\venv
 
  python setup.py install
 
- 
+ ## need to install ipykernel for jupyter
+
+ pip install ipykernel
+
+
 
  ---------------------------------------------

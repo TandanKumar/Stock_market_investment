@@ -3,5 +3,10 @@ numpy
 flask
 gunicorn
 sklearn
+pyyaml
+yaml
+numpy
+dll
+
 
 -e .
