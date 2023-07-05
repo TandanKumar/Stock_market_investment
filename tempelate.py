@@ -20,6 +20,7 @@ list_of_files = [
    f"{package_name}/config/configuration.py",
    f"{package_name}/entity/__init__.py",
    f"{package_name}/entity/config_entity.py",
+   f"{package_name}/entity/artifact_entity.py",
    f"{package_name}/component/__init__.py",
    f"{package_name}/component/data_ingestion.py",
    f"{package_name}/component/data_transformation.py",
